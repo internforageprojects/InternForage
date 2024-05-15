@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAD_Intern Forage</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var link = document.querySelector("link[rel~='icon']");
+      if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(link);
+      }
+      link.href = 'logo_bg.jpg';
+    });
+  </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #86c8dc;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Added */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .image-container {
+            text-align: center;
+            max-width: 80%; /* Adjust this as needed */
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        .button-container {
+            margin-top: 20px; /* Adjust as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .register-button,
+        .more-button {
+            background-color: #1636ed;
+            color: #fff;
+            border: none;
+            padding: 15px 30px; /* Increased padding */
+            border-radius: 30px; /* Increased border radius */
+            font-size: 18px; /* Increased font size */
+            cursor: pointer;
+            text-decoration: none;
+            margin: 0 20px; /* Adjust spacing */
+            transition: background-color 0.3s ease; /* Added transition */
+        }
+        .register-button:hover,
+        .more-button:hover {
+            background-color: #0ee367;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="cad_cs.png" alt="CAD_INTERNFORAGE">
+    </div>
+    <div class="button-container">
+        <a href="https://forms.gle/j2f6kcynExNiyRwi8" target="_blank" class="register-button">Register</a> <!-- Modified -->
+        <a href="https://chat.whatsapp.com/Cla8hbXbFdMIrZ1qt4N3YN" target="_blank" class="more-button">For More..</a>
+    </div>
+</body>
+</html>
